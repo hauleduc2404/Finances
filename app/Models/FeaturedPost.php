@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class FeaturedPost extends Model
+{
+    use HasFactory;
+    protected $table = 'featured_posts';
+
+    protected $fillable = ['activate', 'title', 'content', 'image'];
+
+}

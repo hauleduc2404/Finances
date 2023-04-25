@@ -1,0 +1,211 @@
+.label-class{
+    color: #FF473D;
+}
+#checkma{
+    height: 40px;
+    padding: 0;
+    line-height: 40px;
+    overflow:hidden;
+}
+#checkma::placeholder{
+    font-size: 14px;
+    line-height: 18px;
+}
+.alert, .pab{
+    position: unset;
+}
+.ttd{
+    height: 40px;
+    padding: 0;
+    line-height: 40px;
+    overflow:hidden;
+}
+.ttd::placeholder{
+    font-size: 14px;
+    line-height: 18px;
+}
+.mui-input-row .ckbtn {
+    /* border: 1px solid #37486a; */
+    border: none;
+    color: #37486a;
+    color: #fff;
+    height: 32px;
+    width: 57px;
+    border-radius: 18px;
+    line-height: 32px;
+    position: unset;
+    right: 0;
+    top: 0;
+}
+.ckbtn{
+    /*background: linear-gradient(90deg, #FF5F4D, #FF986F);*/
+    background-color: #C8003F;
+}
+.divFlex{
+    display: flex;
+    -webkit-display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mui-input-group .mui-input-row {
+    height: 48px;
+}
+.mui-input-row label {
+    padding: 13px 15px;
+}
+.regfrm .mui-input-row input {
+    height: 45px;
+}
+.mui-input-row:last-child:after{
+    height: 0;
+}
+@media screen and (max-width: 348px){
+    .regfrm .mui-input-row label {
+        font-size: 11px;
+        padding: 15px 15px;
+    }
+}
+.header{
+    background: url(/Public/home/imgs/img/login/back.png) no-repeat;
+    /*color:#7237E8;*/
+}
+.uiuiuiuiu{
+    width: 16px;
+}
+.regfrm .mui-input-row label {
+    padding: 0;
+    font-size: 11px;
+    width: 35%;
+
+}
+.regfrm .mui-input-row input {
+    height: 45px;
+    width: calc(100% - 40px);
+    padding: 0;
+}
+.mui-input-group .mui-input-row:after{
+    background: none;
+}
+input[type=submit].submit{
+    height: 47px;
+    background: linear-gradient(90deg, #C8003F, #C8003F);
+    border-radius: 23px;
+    color: #fff;
+}
+.hnav{
+    background: url(/Public/home/imgs/bg.png) no-repeat 100% 100%;
+}
+.mui-bar-nav{
+    z-index: 0;
+}
+.mui-content{
+    position: relative;
+    top: 44px;
+    z-index: 9;
+    padding: 0;
+}
+.mui-bar-nav~.mui-content{
+    padding-top: 0;
+}
+.back-form{
+    margin-top: -85px;
+}
+.mui-input-row,.mui-input-group .mui-input-row{
+    width: 94%;
+    margin-left:3%;
+    background: #ededed;
+    border-radius: 50px;
+    margin-top: 13px;
+    padding: 0 15px;
+}
+.mui-input-group .mui-input-row:after{
+    background: none;
+}
+.mui-input-group:after{
+    background: none;
+}
+.mui-input-group{
+    /*background: none;*/
+    padding:15px 0 25px;
+    margin:0 12px;
+    border-radius:  10px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 15px 0px rgba(75, 86, 164, 0.07);
+    border-radius: 8px;
+}
+.mui-input-group:before{
+    background-color: transparent;
+}
+.back-form{
+    margin-top: -85px;
+}
+.mui-content .regfrm .password_icon_off{
+    top: 14px;
+    right: 8px;
+    width: 18px;
+    height: 11px;
+}
+.rev em:after{
+    background: url(/Public/home/imgs/img/common/choose1.png) no-repeat 100% 100%;
+    background-size: contain;
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    width: 16px;
+    height: 16px;
+}
+.arge{
+    color: #C8003F;
+    font-size: 14px;
+}
+.msub{
+    padding: 12px 14px;
+}
+.pwtxt{
+    font-size: 14px;
+}
+
+.change-lan{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(1,1,1,.52);
+    width: 100vw;
+    height: 100vh;
+    z-index: 200;
+    display: none;
+}
+.change-lan>div{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 80%;
+    background: #FFFFFF;
+    border-radius: 8px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.cl-main .title{
+    text-align: center;
+    font-size: 15px;
+    height: 38px;
+    background: linear-gradient(90deg, #FF5148, #FF7E5D);
+    color: #fff;
+    line-height: 38px;
+}
+.cl-main .cl-ul{
+    padding: 0 15px;
+}
+.cl-main .cl-ul div{
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    font-size: 15px;
+    color: #999999;
+    border-bottom: #929292 1px solid;
+}
+.cl-main .cl-ul div:last-of-type{
+    border-bottom: none;
+}

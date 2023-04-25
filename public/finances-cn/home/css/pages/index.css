@@ -1,0 +1,287 @@
+.emask {
+    height: 100%;
+    background: #444343;
+    opacity: .4;
+    top: 0;
+    display: none;
+    z-index: 1000;
+}
+
+.deowin2 {
+    z-index: 2000;
+}
+
+.wobtn a {
+    color: #FF473D;
+}
+
+.divpad2 {
+    padding: 28px 20px 10px;
+    height: 105px !important;
+}
+
+.divFlex {
+    display: flex;
+    -webkit-display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.index-bg {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 170px;
+    background: url(/finances-cn/home/imgs/img/index/index-bg.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.index-main {
+    position: absolute;
+    left: 0;
+    top: 275px;
+    z-index: 10;
+    padding: 0 14px 85px;
+    width: 100%;
+}
+
+.im-title {
+    margin: 27px 0 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.im-tab {}
+
+.im-tab .im-t-num {}
+
+.im-tab .im-t-num .list {
+    width: 48px;
+    height: 57px;
+    background: rgba(255, 255, 255, .4);
+    border-radius: 8px 8px 0px 0px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 10px;
+    margin-right: 0;
+}
+
+.im-tab .im-t-num .list span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.im-tab .im-t-num .list p {
+    font-size: 11px;
+    margin-top: 5px;
+    color: #FFFFFF;
+}
+
+.im-tab .im-t-num .list.act {
+    background-color: #fff;
+}
+
+.im-tab .im-t-num .list.act span {
+    color: #000;
+}
+
+.im-tab .im-t-num .list.act p {
+    color: #888;
+}
+
+.im-tab .im-t-body {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 15px 0px rgba(75, 86, 164, 0.07);
+    border-radius: 8px;
+    padding: 26px 16px 20px;
+    margin-top: -5px;
+}
+
+.im-tab .im-t-body .imtb-block1 {
+    height: 160px;
+    background: url(/finances-cn/home/imgs/img/index/index-bg2.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 20px 10px 0;
+    color: #fff;
+}
+
+.im-tab .im-t-body .imtb-block1 .imtn-b1-title {
+    font-size: 14px;
+}
+
+.im-tab .im-t-body .imtb-block1 .imtn-b1-money {
+    font-size: 31px;
+    margin-top: 18px;
+}
+
+.im-tab .im-t-body .imtb-block1 .imtn-b1-btn {
+    position: relative;
+    margin-top: 25px;
+}
+
+.im-tab .im-t-body .imtb-block2 {
+    margin-top: 26px;
+    /*height: 53px;*/
+    background: #f4f4ff;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #778bf5;
+    line-height: 20px;
+    padding: 8px;
+}
+
+.im-tab .im-t-body .imtb-block2 i {
+    color: #3C3C3C;
+}
+
+.im-choose {
+    margin: 15px 0;
+}
+
+.im-choose span,
+.im-choose i {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.im-choose span {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #999;
+    border-radius: 18px;
+    margin-right: 8px;
+}
+
+.im-choose i {
+    color: #999;
+}
+
+.im-choose.active span {
+    background: url(/finances-cn/home/imgs/img/common/choose1.png) no-repeat;
+    background-size: 100% 100%;
+    border: none;
+}
+
+.im-choose.active i {
+    color: #3d47ff;
+}
+
+.im-btn {
+    text-align: center;
+    color: #fff;
+    line-height: 47px;
+    height: 47px;
+    background: rgb(20,30,210);
+    border-radius: 23px;
+    font-size: 18px;
+}
+
+.im-note {
+    margin: 15px 0 20px;
+}
+
+.im-note img {
+    width: 14px;
+}
+
+.im-note div {
+    width: calc(100% - 24px);
+    height: 18px;
+    overflow: hidden;
+    color: #8B8B8B;
+}
+
+.im-note p {
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.im-note div span {
+    color: #FF473D;
+}
+
+.im-swiper {
+    height: 170px;
+}
+
+.im-swiper img {
+    height: 140px;
+}
+
+.im-swiper .layui-carousel-ind {
+    top: -24px;
+}
+
+.layui-carousel-ind ul {
+    background-color: transparent;
+}
+
+.layui-carousel-ind li {
+    width: 6px;
+    height: 6px;
+    background-color: #D2D2D2;
+}
+
+.layui-carousel-ind li.layui-this {
+    background-color: #FF473D;
+}
+
+.im-nav {
+    margin-top: 14px;
+}
+
+.im-nav img {
+    width: 33.3%;
+}
+
+.layout-slider {
+    margin: 3px auto 0;
+    padding: 0px 35px 0 45px;
+}
+
+.subtract.new-btn {
+    background: url(/finances-cn/home/imgs/img/index/jian2.png) no-repeat;
+    background-position: left center;
+    top: -24px;
+}
+
+.plus.new-btn {
+    background: url(/finances-cn/home/imgs/img/index/add.png) no-repeat;
+    background-position: right center;
+    top: -24px;
+}
+
+.jslider {
+    height: 12px;
+    background: linear-gradient(0deg, #FF9C84 0%, #FFB5A3 100%);
+    border-radius: 6px;
+}
+
+.jslider .jslider-pointer {
+    width: 23px;
+    height: 23px;
+    background: url(/finances-cn/home/imgs/img/index/dot.png) no-repeat;
+    background-size: cover;
+}
+
+.mui-bar-tab .mui-tab-item {
+    overflow: inherit;
+}
+
+.mui-bar {
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.85)
+}
+
+.mui-bar,
+.mui-bar-tab {
+    z-index: 1000;
+}
+
+.mui-bar-tab {
+    height: 60px;
+}

@@ -1,0 +1,20 @@
+/** { font-family: 'Roboto', sans-serif!important; }*/
+.main-bg-color {background-color: #141ed2!important}
+.second-bg-color {background-color: #313ae5!important}
+.main-color {color: #141ed2!important}
+.text-color {color: #3d47ff!important}
+.text-upper {text-transform: uppercase;}
+.text-bold {font-weight: bold;}
+.font-sz-12{font-size:12px}
+.mb-7{margin-bottom: 7px!important;}
+.mt-2{margin-top:15px!important;}
+.mt-3{margin-top:30px!important;}
+.mt-4{margin-top:40px!important;}
+.custom-btn {
+    background: #141ed2!important;
+    color:#FFFFFF;
+    padding: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 50px;
+}
